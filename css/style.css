@@ -553,7 +553,6 @@ button {
   transform: translateY(0);
 }
 
-/* TOP 버튼 부드럽게 나타나기 */
 .arrow-up {
   opacity: 0;
   transition: opacity 0.3s;
