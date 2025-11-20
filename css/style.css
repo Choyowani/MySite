@@ -543,3 +543,22 @@ button {
     right: 1.5rem;
   }
 }
+.fade-in {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease-out;
+}
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* TOP 버튼 부드럽게 나타나기 */
+.arrow-up {
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+body.dark body {
+  background: #121212 !important;
+}
